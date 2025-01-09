@@ -1,5 +1,3 @@
-# WNBA Analysis
-
 # WNBA Analysis Project
 
 This repository contains an R script designed for analyzing WNBA statistics, generating insightful visualizations, and building predictive models based on the 2024 season data. The project utilizes data provided by the `wehoop` package, enabling advanced exploration of play-by-play data, team performance, and player contributions.
