@@ -48,19 +48,6 @@ To install the required packages, use the following command:
 install.packages(c("wehoop", "dplyr", "tidyverse", "ggplot2", "ggimage", "sportyR", "gridExtra"))
 ```
 
-## How to Use
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/keltiwise/WNBA-Analysis.git
-   cd WNBA-Analysis
-   ```
-2. Open the `Analysis.R` script in your R environment (e.g., RStudio).
-3. Run the script to:
-   - Load and preprocess data
-   - Generate visualizations
-   - Analyze and interpret WNBA statistics
-
 ## Insights and Applications
 
 This analysis is intended to provide:
