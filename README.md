@@ -52,7 +52,7 @@ install.packages(c("wehoop", "dplyr", "tidyverse", "ggplot2", "ggimage", "sporty
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/WNBA-Analysis.git
+   git clone https://github.com/keltiwise/WNBA-Analysis.git
    cd WNBA-Analysis
    ```
 2. Open the `Analysis.R` script in your R environment (e.g., RStudio).
