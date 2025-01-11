@@ -71,6 +71,61 @@ ggplot(data, aes(x = reorder(athlete_display_name, -total_points), y = total_poi
   )
 ```
 ![Top 10 Scorers 2024 Season](Images/topscores.png)
+
+### Player Contributions: Top 10 Rebounders
+```r
+# plot top rebounders
+ggplot(rebounds, aes(x = reorder(athlete_display_name, -total_rebounds), y = total_rebounds)) +
+  geom_bar(stat = "identity", fill = rebounds$team_color) +
+  geom_image(aes(image = team_logo), size = 0.09, by = "height", nudge_x = 0.05) +
+  coord_flip() +
+  labs(
+    title = "Top 10 Rebounders",
+    subtitle = "2024 Season",
+    x = "Player",
+    y = "Total Rebounds",
+    fill = "Team"
+  ) +
+  theme_minimal() +
+  theme(
+    text = element_text(family = "Arial", size = 12),
+    plot.title = element_text(hjust = 0.5, size = 16, face = "bold"),
+    plot.subtitle = element_text(hjust = 0.5, size = 14, face = "bold"),
+    axis.text.x = element_text(size = 10, angle = 0, vjust = 0.5),
+    axis.text.y = element_text(size = 10),
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor.x = element_blank()
+  )
+```
+![Top 10 Rebounders](Images/toprebounders.png)
+
+### Player Contributions: Top 10 Assist Leaders
+```r
+# plot most assists
+ggplot(assists, aes(x = reorder(athlete_display_name, -total_assists), y = total_assists)) +
+  geom_bar(stat = "identity", fill = assists$team_color) +
+  geom_image(aes(image = team_logo), size = 0.09, by = "height", nudge_x = 0.05) +
+  coord_flip() +
+  labs(
+    title = "Top 10 Assists",
+    subtitle = "2024 Season",
+    x = "Player",
+    y = "Total Assists",
+    fill = "Team"
+  ) +
+  theme_minimal() +
+  theme(
+    text = element_text(family = "Arial", size = 12),
+    plot.title = element_text(hjust = 0.5, size = 16, face = "bold"),
+    plot.subtitle = element_text(hjust = 0.5, size = 14, face = "bold"),
+    axis.text.x = element_text(size = 10, angle = 0, vjust = 0.5),
+    axis.text.y = element_text(size = 10),
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor.x = element_blank()
+  )
+```
+![Top 10 Assists](Images/topassist.png)
+
 ### Shot Charts: Indiana Fever (Home Games)
 ```r
 # plotting Indiana Fever home games shot chart
