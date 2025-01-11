@@ -201,10 +201,6 @@ This analysis is intended to provide:
 
 Contributions are welcome! Feel free to open an issue or submit a pull request for improvements or new features.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
 ## Acknowledgments
 
 - Special thanks to the creators of the `wehoop` package for making comprehensive WNBA data accessible.
