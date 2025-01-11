@@ -41,6 +41,7 @@ ggplot(teamaverages, (aes(x = avg_three_point_field_goals_attempted, y =
     axis.title = element_text(size = 14)
   )
 ```
+![Team Averages: 3 Pointers Attempted vs. Made](Images/3pattx3pmade.png)
 
 ### Player Contributions: Top 10 Scorers
 ```r
@@ -69,7 +70,7 @@ ggplot(data, aes(x = reorder(athlete_display_name, -total_points), y = total_poi
     panel.grid.minor.x = element_blank()
   )
 ```
-(Images/topscores.png)
+![Top 10 Scorers 2024 Season](Images/topscores.png)
 ### Shot Charts: Indiana Fever (Home Games)
 ```r
 # plotting Indiana Fever home games shot chart
