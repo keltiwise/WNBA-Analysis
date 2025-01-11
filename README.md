@@ -69,7 +69,7 @@ ggplot(data, aes(x = reorder(athlete_display_name, -total_points), y = total_poi
     panel.grid.minor.x = element_blank()
   )
 ```
-
+(Images/topscores.png)
 ### Shot Charts: Indiana Fever (Home Games)
 ```r
 # plotting Indiana Fever home games shot chart
