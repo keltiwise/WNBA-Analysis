@@ -147,6 +147,9 @@ geom_basketball(league = "wnba", color_updates = list(
         plot.title = element_text(hjust = 0.5, face = "bold", size = 16),
         plot.subtitle = element_text(hjust = 0.5, size = 12))
 ```
+![Fever Home](Images/feverhome.png)
+
+More visuals included in analysis!
 
 ## Requirements
 
